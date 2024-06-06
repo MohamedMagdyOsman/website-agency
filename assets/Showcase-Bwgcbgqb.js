@@ -1,0 +1,1 @@
+import{j as s}from"./index-Db1Wi5WV.js";function o({image:e,title:r,desc:a,move:c}){return s.jsxs("div",{className:`showcase ${c?"":"normal"}`,children:[s.jsx("img",{src:e,alt:"project image"}),s.jsx("h4",{children:r}),s.jsx("p",{children:a})]})}export{o as default};

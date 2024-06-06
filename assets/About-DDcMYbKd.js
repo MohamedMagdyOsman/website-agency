@@ -1,1 +1,0 @@
-import{j as s,N as a,i as t,k as r,M as i,l as o,m as x,h as e}from"./index-DDYZr3Ro.js";function n(){return s.jsxs(s.Fragment,{children:[s.jsx(a,{variant:"light"}),s.jsx(t,{}),s.jsx(r,{}),s.jsx(i,{}),s.jsx(o,{}),s.jsx(x,{}),s.jsx(e,{})]})}export{n as default};

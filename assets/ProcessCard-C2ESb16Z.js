@@ -1,0 +1,1 @@
+import{j as s}from"./index-Db1Wi5WV.js";function c({icon:r,title:e,desc:n}){return s.jsxs("div",{className:"process__card",children:[s.jsxs("div",{children:[s.jsx("span",{children:r}),s.jsx("span",{children:e})]}),n]})}export{c as default};

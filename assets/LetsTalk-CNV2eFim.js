@@ -1,1 +1,0 @@
-import{j as t}from"./index-DDYZr3Ro.js";function s(){return t.jsx("div",{className:"container",children:t.jsxs("section",{className:"let-talk",children:[t.jsx("h3",{children:"Enough talk, let’s get to work"}),t.jsx("button",{children:"Get in touch"})]})})}export{s as default};

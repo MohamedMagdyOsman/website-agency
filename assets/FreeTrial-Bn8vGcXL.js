@@ -1,1 +1,0 @@
-import{j as r,b as a}from"./index-DDYZr3Ro.js";function o({variant:s}){return r.jsxs("button",{className:`free-trial ${s=="dark"?"dark":""}`,children:[r.jsx("span",{children:r.jsx(a,{color:`${s=="dark"?"#0c0c0c":"#FBFBFB"}`})}),r.jsx("span",{children:"Start your Free Trial"})]})}export{o as default};
