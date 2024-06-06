@@ -1,0 +1,1 @@
+import{j as s}from"./index-DDYZr3Ro.js";function c({variant:e,icon:i,title:l,desc:r}){return s.jsxs("div",{className:`service ${e=="light"?"light":""}`,children:[s.jsx("span",{className:`${e=="light"?"light":""}`,children:i}),s.jsx("h4",{children:l}),s.jsx("p",{children:r})]})}export{c as default};

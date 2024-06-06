@@ -1,0 +1,1 @@
+import{u as a,j as s,N as e,h as t}from"./index-DDYZr3Ro.js";function n(){const r=a();return s.jsxs(s.Fragment,{children:[s.jsx(e,{variant:"light"}),s.jsxs("section",{className:"error",children:[s.jsx("h1",{children:"This Page Not Found!"}),s.jsx("button",{onClick:()=>{r("/")},children:"Go Home"})]}),s.jsx(t,{})]})}export{n as default};
