@@ -1,0 +1,22 @@
+.showcase {
+  max-width: 500px;
+  cursor: pointer;
+}
+
+.showcase h4 {
+  font-size: 25px;
+  line-height: 20px;
+}
+
+@media (min-width: 1200px) {
+  .showcase:nth-child(even) {
+    -webkit-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+  }
+  .showcase.normal:nth-child(even) {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

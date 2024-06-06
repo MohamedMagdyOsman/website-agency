@@ -1,0 +1,40 @@
+.free-trial {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 18px;
+  padding: 0 20px 0 10px;
+  border-radius: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.free-trial span:nth-child(1) {
+  background-color: var(--black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.free-trial.dark {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.free-trial.dark span:nth-child(1) {
+  background-color: var(--white);
+}

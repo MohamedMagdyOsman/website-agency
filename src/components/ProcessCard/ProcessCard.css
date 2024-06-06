@@ -1,0 +1,60 @@
+.process__card {
+  max-width: 250px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--light-black);
+  font-weight: 500;
+  line-height: 25px;
+  position: relative;
+}
+
+.process__card > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  -webkit-transform: translate(30px, -30px);
+  -ms-transform: translate(30px, -30px);
+  transform: translate(30px, -30px);
+  padding: 10px;
+}
+
+.process__card > div span:nth-child(1) {
+  background-color: var(--black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.process__card > div span:nth-child(2) {
+  color: var(--light-black);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (max-width: 330px) {
+  .process__card > div span:nth-child(2) {
+    font-size: 20px;
+  }
+  .process__card > div {
+    -webkit-transform: translate(0, -30px);
+    -ms-transform: translate(0, -30px);
+    transform: translate(0, -30px);
+  }
+}

@@ -1,0 +1,113 @@
+section.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+section.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+section.about .container .right {
+  width: 40%;
+}
+section.about .container .left {
+  width: 60%;
+}
+
+section.about .container .left img {
+  max-width: 550px;
+}
+
+section.about .container .right > div:first-of-type {
+  color: var(--light-green);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section.about .container .right h3 {
+  font-size: 30px;
+  max-width: 380px;
+  margin-bottom: 20px;
+}
+
+section.about .container .right h3 + p {
+  font-size: 14px;
+  color: var(--dark-grey);
+  line-height: 23px;
+  max-width: 380px;
+  margin-bottom: 20px;
+}
+
+.about__stats {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.about__stats > div p:nth-child(1) {
+  color: var(--light-green);
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.about__stats > div p:nth-child(2) {
+  font-size: 14px;
+  color: var(--dark-grey);
+}
+
+@media (max-width: 991px) {
+  section.about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  section.about .container .right,
+  section.about .container .left {
+    width: 100%;
+  }
+
+  section.about .container .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  section.about .container .right {
+    text-align: center;
+  }
+
+  section.about .container .right > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about__stats {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  section.about .container .left img {
+    max-width: 80%;
+  }
+}

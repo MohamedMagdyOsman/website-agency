@@ -1,0 +1,196 @@
+section.mession {
+  background-color: var(--black);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--white);
+}
+
+section.mession .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section.mession .container .left {
+  max-width: 500px;
+}
+
+section.mession .container .left > div:nth-of-type(1) {
+  color: var(--light-green);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section.mession .container .left h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+section.mession .container .left p {
+  line-height: 25px;
+  color: var(--dark-grey);
+  margin-bottom: 20px;
+}
+
+section.mession .container .left .mession__checklist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  gap: 30px;
+}
+
+section.mession .container .left .mession__checklist .checkIcon {
+  margin-right: 5px;
+}
+
+section.mession .container .middle img {
+  border-radius: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+section.mession .container .middle .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+section.mession .container .middle .stats > div:nth-of-type(1) {
+  border-right: 1px solid var(--white);
+  padding-right: 20px;
+}
+
+section.mession .container .middle .stats > div:nth-of-type(2) {
+  -webkit-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+}
+
+section.mession .container .middle .stats h4 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+section.mession .container .middle .stats h4 + p {
+  color: var(--dark-grey);
+  font-size: 14px;
+  line-height: 25px;
+}
+
+section.mession .container .middle {
+  position: relative;
+}
+
+section.mession .container .middle .team-members {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+section.mession .container .middle .team-members .team-members-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section.mession .container .middle .team-members p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section.mession .container .middle .team-members .team-members-wrapper img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--light-green);
+}
+
+section.mession .container .right {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+@media (max-width: 991px) {
+  section.mession .container .right {
+    display: none;
+  }
+
+  section.mession .container .middle .team-members {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  section.mession .container {
+    display: block;
+    text-align: center;
+  }
+
+  section.mession .container .left {
+    margin-bottom: 30px;
+  }
+
+  section.mession .container .left .mession__checklist {
+    text-align: start;
+  }
+
+  section.mession .container .middle .stats {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 475px) {
+  section.mession .container .left .mession__checklist {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  section.mession .container .middle .stats {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  section.mession .container .middle .stats > div:nth-of-type(1) {
+    border: none;
+  }
+}
